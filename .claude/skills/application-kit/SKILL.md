@@ -73,8 +73,8 @@ On screen, center the page in a max-width ~8.5in column with a light margin so i
 #### Fitting the page limit
 Check the page count; don't assume. If a headless browser or `weasyprint`/`wkhtmltopdf` is available, render to PDF and count pages (e.g. headless Chrome `--print-to-pdf`, then check the page count). Otherwise estimate conservatively (roughly 55 body lines per page at 10pt on Letter with 0.5in margins, a few more on A4) and tell the user it is an estimate. If it runs over: first cut the least relevant bullets, then tighten wording, then trim spacing slightly. Don't shrink the font below 9.5pt and don't remove any role or date. Report the check method and result in the final reply. Don't leave generated PDFs or screenshots in the folder unless the user wants a PDF; delete scratch files you created.
 
-### 6. Write the cover letter (under 250 words)
-Write `cover-letter.md`. **Under 250 words, counting everything from greeting to sign-off** (aim for 180-230). Count the words with a tool (e.g. `wc -w`) and report the count; rewrite if it's 250 or more.
+### 6. Write the cover letter (under 250 words) or email note
+**First check "Cover letter" in `settings.md`.** If it says optional or asks for a short email note instead, write `email-note.md` (subject line + note, under 120 words, same rules on facts) and no cover letter; report its word count instead. Otherwise write `cover-letter.md`. **Under 250 words, counting everything from greeting to sign-off** (aim for 180-230). Count the words with a tool (e.g. `wc -w`) and report the count; rewrite if it's 250 or more.
 
 Structure, three short paragraphs:
 1. **Why this company**: one or two *specific* things, taken from the job post or the company's own pages that you actually read (mission, product, problem the team is solving), tied to something the user has stated they want (`wins.md` / `profile/facts.md`). If you can't find anything specific and verified, write a modest, honest line about the role and what it involves instead of invented admiration, and tell the user to add their own reason. Avoid generic praise ("innovative industry leader").
