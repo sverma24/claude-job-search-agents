@@ -1,0 +1,11 @@
+# Your job-search results stay on your computer
+profile/
+jobs/
+applications/
+companies/
+outreach/
+interviews/
+offers/
+manager/
+tracker.md
+.claude/settings.local.json
